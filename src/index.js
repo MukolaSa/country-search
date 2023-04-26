@@ -14,7 +14,7 @@ searchButton.addEventListener('click', () => {
                 if (data.length > 0) {
                     data.forEach(country => {
                         const countryElement = document.createElement('div');
-                        countryElement.classList.add('country');
+                        countryElement.classList.add('country'); 
 
                         const countryName = document.createElement('h2');
                         countryName.innerText = country.name;
